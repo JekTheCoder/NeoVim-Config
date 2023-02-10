@@ -47,6 +47,4 @@ return require('packer').startup(function(use)
 	}
 
 	use { 'jose-elias-alvarez/null-ls.nvim' } -- Prettier Format
-	use { 'mattn/emmet-vim' } -- Emmet Autocompletion
-	use { 'aca/emmet-ls' } -- Emmet Lsp
 end)
