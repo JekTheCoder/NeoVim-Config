@@ -47,4 +47,9 @@ return require('packer').startup(function(use)
 	}
 
 	use { 'jose-elias-alvarez/null-ls.nvim' } -- Prettier Format
+
+	use {
+		'nvim-lualine/lualine.nvim',
+		requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+	}
 end)
