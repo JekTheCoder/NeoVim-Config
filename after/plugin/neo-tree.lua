@@ -230,6 +230,6 @@ neoTree.setup({
 	}
 })
 
-vim.keymap.set("n", "<leader>pb", function ()
+vim.keymap.set("n", "<leader>b", function ()
 	vim.cmd(":NeoTreeRevealToggle");
 end)
