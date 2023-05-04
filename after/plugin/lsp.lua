@@ -1,3 +1,4 @@
+local icons = require "default.icons";
 local lsp = require("lsp-zero")
 
 lsp.preset("recommended")
@@ -43,10 +44,10 @@ lsp.setup_nvim_cmp({
 lsp.set_preferences({
     suggest_lsp_servers = false,
     sign_icons = {
-        error = '',
-        warn = '',
-        hint = '󱍔',
-        info = '󰋼'
+        error = icons.error,
+        warn = icons.warn,
+        hint = icons.hint,
+        info = icons.info
     }
 })
 
