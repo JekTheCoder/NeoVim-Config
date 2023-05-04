@@ -52,4 +52,8 @@ return require('packer').startup(function(use)
 		'nvim-lualine/lualine.nvim',
 		requires = { 'nvim-tree/nvim-web-devicons', opt = true }
 	}
+	use {
+		'lewis6991/gitsigns.nvim',
+		-- tag = 'release' -- To use the latest release (do not use this if you run Neovim nightly or dev builds!)
+	}
 end)

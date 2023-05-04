@@ -1,4 +1,4 @@
-vim.keymap.set("n", "<C-n>", function() 
+vim.keymap.set("n", "<leader>gn", function() 
 	local template_name = vim.fn.input("Template > ");
 	local name = vim.fn.input("Name > ");
 
