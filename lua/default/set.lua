@@ -3,6 +3,11 @@ vim.opt.guicursor = ""
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
+-- Tab config
+vim.opt.expandtab = false
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+
 vim.opt.wrap = false
 
 vim.opt.swapfile = false
