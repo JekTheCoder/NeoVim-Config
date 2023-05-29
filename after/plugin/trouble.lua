@@ -19,4 +19,7 @@ vim.keymap.set("n", "gR", "<cmd>TroubleToggle lsp_references<cr>",
 
 require("trouble").setup {
 	icons = false;
+	file_ignore_patterns = {
+		"node%_modules/*",
+	};
 };
