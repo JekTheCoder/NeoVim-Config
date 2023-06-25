@@ -75,4 +75,6 @@ return require("packer").startup(function(use)
 	})
 
 	use 'Exafunction/codeium.vim'; -- Open Source AI Code completion
+
+	use 'tpope/vim-abolish'; -- Super vim regex
 end)
