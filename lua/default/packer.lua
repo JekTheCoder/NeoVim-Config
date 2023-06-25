@@ -12,13 +12,8 @@ return require("packer").startup(function(use)
 		-- or                            , branch = '0.1.x',
 		requires = { { "nvim-lua/plenary.nvim" } },
 	})
-	use({
-		"navarasu/onedark.nvim",
-		as = "onedark",
-		config = function()
-			vim.cmd("colorscheme onedark")
-		end,
-	})
+	use 'Mofiqul/dracula.nvim';
+
 	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
 	use("theprimeagen/harpoon")
 	use("mbbill/undotree")
